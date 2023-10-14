@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,7 +27,7 @@
             <div class="card card-primary">
 
               <div class="card-body">
-                <form method="POST">
+                <form method="POST" action="user-register.php">
                   <div class="row">
                     <div class="form-group col-6">
                       <label for="frist_name">First Name</label>
@@ -71,7 +72,7 @@
                   </div>
 
                   <div class="form-group">
-                    <button type="submit" class="btn btn-primary btn-block">
+                    <button type="submit" name="register-btn" class="btn btn-primary btn-block">
                       Register
                     </button>
                   </div>
