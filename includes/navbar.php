@@ -4,39 +4,39 @@
     </li>
 
     <li>
-        <a href="../category.php">Categories</a>
+        <a href="../php/category.php">Categories</a>
     </li>
 
     <li>
-        <a href="../category.php">Entertainment </a>
+        <a href="../php/category.php">Entertainment </a>
     </li>
 
     <li>
-        <a href="../category.php">Business</a>
+        <a href="../php/category.php">Business</a>
     </li>
 
     <li>
-        <a href="../category.php">Travel</a>
+        <a href="../php/category.php">Travel</a>
     </li>
 
     <li>
-        <a href="../category.php">Life Style</a>
+        <a href="../php/category.php">Life Style</a>
     </li>
 
     <li>
-        <a href="../category.php">Video</a>
+        <a href="../php/category.php">Video</a>
     </li>
 
     <li>
         <a href="#">Features</a>
         <ul class="sub-menu-m">
-            <li><a href="../category.php">Category Page v1</a></li>
-            <li><a href="../category.php">Category Page v2</a></li>
+            <li><a href="../php/category.php">Category Page v1</a></li>
+            <li><a href="../php/category.php">Category Page v2</a></li>
             <li><a href="../blog-grid.html">Blog Grid Sidebar</a></li>
             <li><a href="../blog-list-01.html">Blog List Sidebar v1</a></li>
             <li><a href="../blog-list-02.html">Blog List Sidebar v2</a></li>
-            <li><a href="../post.php">Blog Detail Sidebar</a></li>
-            <li><a href="../post.php">Blog Detail No Sidebar</a></li>
+            <li><a href="../php/post.php">Blog Detail Sidebar</a></li>
+            <li><a href="../php/post.php">Blog Detail No Sidebar</a></li>
             <li><a href="../about.html">About Us</a></li>
             <li><a href="../contact.html">Contact Us</a></li>
         </ul>
@@ -76,7 +76,7 @@
                 </li>
 
                 <li class="mega-menu-item">
-                    <a href="../category.php">Categories</a>
+                    <a href="../php/category.php">Categories</a>
 
                     <div class="sub-mega-menu">
                         <div class="nav flex-column nav-pills" role="tablist">
@@ -94,13 +94,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-05.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -125,13 +125,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-10.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -156,13 +156,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-14.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -187,13 +187,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-36.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -222,13 +222,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-50.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -253,13 +253,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-08.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -284,13 +284,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-07.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -315,13 +315,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-06.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -350,13 +350,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-21.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -381,13 +381,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-24.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -412,13 +412,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-22.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -443,13 +443,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-23.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -478,13 +478,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-25.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -509,13 +509,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-27.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -540,13 +540,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-26.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -571,13 +571,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-34.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -606,13 +606,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-35.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -637,13 +637,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-36.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -668,13 +668,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-37.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -699,13 +699,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-38.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -734,13 +734,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-39.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -765,13 +765,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-41.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -796,13 +796,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-42.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -827,13 +827,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-40.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -861,7 +861,7 @@
                 </li>
 
                 <li class="mega-menu-item">
-                    <a href="../category.php">Entertainment </a>
+                    <a href="../php/category.php">Entertainment </a>
 
                     <div class="sub-mega-menu">
                         <div class="nav flex-column nav-pills" role="tablist">
@@ -876,13 +876,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-25.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -907,13 +907,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-27.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -938,13 +938,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-26.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -969,13 +969,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-34.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1004,13 +1004,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-35.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1035,13 +1035,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-36.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1066,13 +1066,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-37.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1097,13 +1097,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-38.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1132,13 +1132,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-39.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1163,13 +1163,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-41.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1194,13 +1194,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-42.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1225,13 +1225,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-40.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1259,7 +1259,7 @@
                 </li>
 
                 <li class="mega-menu-item">
-                    <a href="../category.php">Business</a>
+                    <a href="../php/category.php">Business</a>
 
                     <div class="sub-mega-menu">
                         <div class="nav flex-column nav-pills" role="tablist">
@@ -1273,13 +1273,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-10.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1304,13 +1304,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-11.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1335,13 +1335,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-26.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1366,13 +1366,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-34.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1401,13 +1401,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-35.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1432,13 +1432,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-36.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1463,13 +1463,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-37.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1494,13 +1494,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-38.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1528,7 +1528,7 @@
                 </li>
 
                 <li class="mega-menu-item">
-                    <a href="../category.php">Travel</a>
+                    <a href="../php/category.php">Travel</a>
 
                     <div class="sub-mega-menu">
                         <div class="nav flex-column nav-pills" role="tablist">
@@ -1542,13 +1542,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-39.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1573,13 +1573,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-41.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1604,13 +1604,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-42.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1635,13 +1635,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-40.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1670,13 +1670,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-35.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1701,13 +1701,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-36.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1732,13 +1732,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-37.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1763,13 +1763,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-38.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1797,7 +1797,7 @@
                 </li>
 
                 <li class="mega-menu-item">
-                    <a href="../category.php">Life Style</a>
+                    <a href="../php/category.php">Life Style</a>
 
                     <div class="sub-mega-menu">
                         <div class="nav flex-column nav-pills" role="tablist">
@@ -1810,13 +1810,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-25.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1841,13 +1841,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-27.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1872,13 +1872,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-26.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1903,13 +1903,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-34.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1937,7 +1937,7 @@
                 </li>
 
                 <li class="mega-menu-item">
-                    <a href="../category.php">Video</a>
+                    <a href="../php/category.php">Video</a>
 
                     <div class="sub-mega-menu">
                         <div class="nav flex-column nav-pills" role="tablist">
@@ -1950,13 +1950,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-50.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -1981,13 +1981,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-08.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -2012,13 +2012,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-07.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -2043,13 +2043,13 @@
                                     <div class="col-3">
                                         <!-- Item post -->
                                         <div>
-                                            <a href="../post.php" class="wrap-pic-w hov1 trans-03">
+                                            <a href="../php/post.php" class="wrap-pic-w hov1 trans-03">
                                                 <img src="../images/post-06.jpg" alt="IMG">
                                             </a>
 
                                             <div class="p-t-10">
                                                 <h5 class="p-b-5">
-                                                    <a href="../post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    <a href="../php/post.php" class="f1-s-5 cl3 hov-cl10 trans-03">
                                                         Donec metus orci, malesuada et lectus vitae
                                                     </a>
                                                 </h5>
@@ -2079,13 +2079,13 @@
                 <li>
                     <a href="#">Features</a>
                     <ul class="sub-menu">
-                        <li><a href="../category.php">Category Page v1</a></li>
-                        <li><a href="../category.php">Category Page v2</a></li>
+                        <li><a href="../php/category.php">Category Page v1</a></li>
+                        <li><a href="../php/category.php">Category Page v2</a></li>
                         <li><a href="../blog-grid.html">Blog Grid Sidebar</a></li>
                         <li><a href="../blog-list-01.html">Blog List Sidebar v1</a></li>
                         <li><a href="../blog-list-02.html">Blog List Sidebar v2</a></li>
-                        <li><a href="../post.php">Blog Detail Sidebar</a></li>
-                        <li><a href="../post.php">Blog Detail No Sidebar</a></li>
+                        <li><a href="../php/post.php">Blog Detail Sidebar</a></li>
+                        <li><a href="../php/post.php">Blog Detail No Sidebar</a></li>
                         <li><a href="../about.html">About Us</a></li>
                         <li><a href="../contact.html">Contact Us</a></li>
                     </ul>

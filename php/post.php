@@ -4,11 +4,11 @@
 <div class="container">
     <div class="headline bg0 flex-wr-sb-c p-rl-20 p-tb-8">
         <div class="f2-s-1 p-r-30 m-tb-6">
-            <a href="index.php" class="breadcrumb-item f1-s-3 cl9">
+            <a href="../index.php" class="breadcrumb-item f1-s-3 cl9">
                 Home
             </a>
 
-            <a href="blog-list-01.html" class="breadcrumb-item f1-s-3 cl9">
+            <a href="../blog-list-01.html" class="breadcrumb-item f1-s-3 cl9">
                 Blog
             </a>
 
@@ -29,7 +29,7 @@
 <!-- Content -->
 <section class="bg0 p-b-70 p-t-5">
     <!-- Title -->
-    <div class="bg-img1 size-a-18 how-overlay1" style="background-image: url(images/blog-detail-01.jpg);">
+    <div class="bg-img1 size-a-18 how-overlay1" style="background-image: url(blog-detail-01.jpg);">
         <div class="container h-full flex-col-e-c p-b-58">
             <a href="#" class="f1-s-10 cl0 hov-cl10 trans-03 text-uppercase txt-center m-b-33">
                 Technology
@@ -161,7 +161,7 @@
                     <!-- Banner -->
                     <div class="flex-c-s">
                         <a href="#">
-                            <img class="max-w-full" src="images/banner-02.jpg" alt="IMG">
+                            <img class="max-w-full" src="../images/banner-02.jpg" alt="IMG">
                         </a>
                     </div>
                 </div>

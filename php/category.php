@@ -4,7 +4,7 @@
 <div class="container">
     <div class="bg0 flex-wr-sb-c p-rl-20 p-tb-8">
         <div class="f2-s-1 p-r-30 m-tb-6">
-            <a href="index.php" class="breadcrumb-item f1-s-3 cl9">
+            <a href="../index.php" class="breadcrumb-item f1-s-3 cl9">
                 Home
             </a>
 
@@ -38,7 +38,7 @@
     <div class="container">
         <div class="row m-rl--1">
             <div class="col-12 p-rl-1 p-b-2">
-                <div class="bg-img1 size-a-3 how1 pos-relative" style="background-image: url(images/entertaiment-16.jpg);">
+                <div class="bg-img1 size-a-3 how1 pos-relative" style="background-image: url(entertaiment-16.jpg);">
                     <a href="post.php" class="dis-block how1-child1 trans-03"></a>
 
                     <div class="flex-col-e-s s-full p-rl-25 p-tb-20">
@@ -70,7 +70,7 @@
             </div>
 
             <div class="col-sm-6 col-md-3 p-rl-1 p-b-2">
-                <div class="bg-img1 size-a-14 how1 pos-relative" style="background-image: url(images/entertaiment-02.jpg);">
+                <div class="bg-img1 size-a-14 how1 pos-relative" style="background-image: url(entertaiment-02.jpg);">
                     <a href="post.php" class="dis-block how1-child1 trans-03"></a>
 
                     <div class="flex-col-e-s s-full p-rl-25 p-tb-20">
@@ -88,7 +88,7 @@
             </div>
 
             <div class="col-sm-6 col-md-3 p-rl-1 p-b-2">
-                <div class="bg-img1 size-a-14 how1 pos-relative" style="background-image: url(images/entertaiment-03.jpg);">
+                <div class="bg-img1 size-a-14 how1 pos-relative" style="background-image: url(entertaiment-03.jpg);">
                     <a href="post.php" class="dis-block how1-child1 trans-03"></a>
 
                     <div class="flex-col-e-s s-full p-rl-25 p-tb-20">
@@ -106,7 +106,7 @@
             </div>
 
             <div class="col-sm-6 col-md-3 p-rl-1 p-b-2">
-                <div class="bg-img1 size-a-14 how1 pos-relative" style="background-image: url(images/entertaiment-04.jpg);">
+                <div class="bg-img1 size-a-14 how1 pos-relative" style="background-image: url(entertaiment-04.jpg);">
                     <a href="post.php" class="dis-block how1-child1 trans-03"></a>
 
                     <div class="flex-col-e-s s-full p-rl-25 p-tb-20">
@@ -124,7 +124,7 @@
             </div>
 
             <div class="col-sm-6 col-md-3 p-rl-1 p-b-2">
-                <div class="bg-img1 size-a-14 how1 pos-relative" style="background-image: url(images/entertaiment-05.jpg);">
+                <div class="bg-img1 size-a-14 how1 pos-relative" style="background-image: url(entertaiment-05.jpg);">
                     <a href="post.php" class="dis-block how1-child1 trans-03"></a>
 
                     <div class="flex-col-e-s s-full p-rl-25 p-tb-20">
@@ -154,7 +154,7 @@
                         <!-- Item -->
                         <div class="p-b-53">
                             <a href="post.php" class="wrap-pic-w hov1 trans-03">
-                                <img src="images/entertaiment-06.jpg" alt="IMG">
+                                <img src="../images/entertaiment-06.jpg" alt="IMG">
                             </a>
 
                             <div class="flex-col-s-c p-t-16">
@@ -192,7 +192,7 @@
                         <!-- Item -->
                         <div class="p-b-53">
                             <a href="post.php" class="wrap-pic-w hov1 trans-03">
-                                <img src="images/entertaiment-17.jpg" alt="IMG">
+                                <img src="../images/entertaiment-17.jpg" alt="IMG">
                             </a>
 
                             <div class="flex-col-s-c p-t-16">
@@ -230,7 +230,7 @@
                         <!-- Item -->
                         <div class="p-b-53">
                             <a href="post.php" class="wrap-pic-w hov1 trans-03">
-                                <img src="images/entertaiment-18.jpg" alt="IMG">
+                                <img src="../images/entertaiment-18.jpg" alt="IMG">
                             </a>
 
                             <div class="flex-col-s-c p-t-16">
@@ -270,7 +270,7 @@
                         <!-- Item -->
                         <div class="p-b-53">
                             <a href="post.php" class="wrap-pic-w hov1 trans-03">
-                                <img src="images/entertaiment-19.jpg" alt="IMG">
+                                <img src="../images/entertaiment-19.jpg" alt="IMG">
                             </a>
 
                             <div class="flex-col-s-c p-t-16">
@@ -308,7 +308,7 @@
                         <!-- Item -->
                         <div class="p-b-53">
                             <a href="post.php" class="wrap-pic-w hov1 trans-03">
-                                <img src="images/entertaiment-20.jpg" alt="IMG">
+                                <img src="../images/entertaiment-20.jpg" alt="IMG">
                             </a>
 
                             <div class="flex-col-s-c p-t-16">
@@ -346,7 +346,7 @@
                         <!-- Item -->
                         <div class="p-b-53">
                             <a href="post.php" class="wrap-pic-w hov1 trans-03">
-                                <img src="images/entertaiment-21.jpg" alt="IMG">
+                                <img src="../images/entertaiment-21.jpg" alt="IMG">
                             </a>
 
                             <div class="flex-col-s-c p-t-16">
@@ -395,7 +395,7 @@
                     <!-- Banner -->
                     <div class="flex-c-s">
                         <a href="#">
-                            <img class="max-w-full" src="images/banner-02.jpg" alt="IMG">
+                            <img class="max-w-full" src="../images/banner-02.jpg" alt="IMG">
                         </a>
                     </div>
                 </div>
