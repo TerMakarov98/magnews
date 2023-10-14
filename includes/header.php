@@ -14,9 +14,12 @@
     <link rel="stylesheet" type="text/css" href="../css/util.min.css">
     <link rel="stylesheet" type="text/css" href="../css/main.css">
 </head>
-<body class="animsition">
+<?php require_once __DIR__ . "/../vendor/autoload.php"; ?>
+<?php require_once __DIR__ . "/../functions.php"; ?>
 
+<body class="animsition">
 <!-- Header -->
+
 <header>
     <!-- Header desktop -->
     <div class="container-menu-desktop">
@@ -148,6 +151,6 @@
                     </a>
                 </li>
             </ul>
-<?php include("navbar.php") ?>
+            <?php include("navbar.php") ?>
         </div>
 </header>
