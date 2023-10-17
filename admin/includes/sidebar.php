@@ -50,7 +50,7 @@ if ($result) {
                 </ul>
             </li>
             <li>
-                <a href="../php/post-add.php" class=""><i class="ion ion-ios-book"></i><span>Add Post</span></a>
+                <a href="post-add.php" class=""><i class="ion ion-ios-book"></i><span>Add Post</span></a>
             </li>
 
             <li class="menu-header">More</li>

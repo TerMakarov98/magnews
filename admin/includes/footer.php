@@ -12,11 +12,25 @@
 <script src="../../admin/dist/modules/tooltip.js"></script>
 <script src="../../admin/dist/modules/bootstrap/js/bootstrap.min.js"></script>
 <script src="../../admin/dist/modules/nicescroll/jquery.nicescroll.min.js"></script>
-<script src="../../admin/dist/modules/scroll-up-bar/../../admin/dist/scroll-up-bar.min.js"></script>
+<script src="../../admin/dist/modules/scroll-up-bar/dist/scroll-up-bar.min.js"></script>
 <script src="../../admin/dist/js/sa-functions.js"></script>
 
 <script src="../../admin/dist/modules/chart.min.js"></script>
 <script src="../../admin/dist/modules/summernote/summernote-lite.js"></script>
+
+<!-- Summernote library scripts -->
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+<script>
+    $(document).ready(function() {
+        // $("#summernote").summernote();
+        $('#summernote').summernote({
+            placeholder: '',
+            tabsize: 2,
+            height: 300
+        });
+        $('.dropdown-toggle').dropdown();
+    });
+</script>
 
 <script>
     var ctx = document.getElementById("myChart").getContext('2d');

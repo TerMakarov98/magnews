@@ -1,4 +1,9 @@
-<?php session_start(); ?>
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+session_start();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,11 +32,11 @@
             <div class="card card-primary">
 
               <div class="card-body">
-                <form method="POST" action="user-register.php">
+                <form method="POST" action="user-register.php" enctype="multipart/form-data">
                   <div class="row">
                     <div class="form-group col-6">
-                      <label for="frist_name">First Name</label>
-                      <input id="frist_name" type="text" class="form-control" name="frist_name" autofocus>
+                      <label for="first_name">First Name</label>
+                      <input id="first_name" type="text" class="form-control" name="first_name" autofocus>
                     </div>
                     <div class="form-group col-6">
                       <label for="last_name">Last Name</label>

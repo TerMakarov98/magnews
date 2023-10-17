@@ -15,11 +15,9 @@ class RegistrationController {
         $errors = $this->validateRegistration($firstName, $lastName, $email, $password, $passwordConfirm);
 
         if (empty($errors)) {
-            // Generate a unique filename for the uploaded image
             $image_extension = pathinfo($image, PATHINFO_EXTENSION);
             $filename = $this->generateUniqueFilename($image_extension);
 
-            // Move the uploaded image to the destination folder
             move_uploaded_file($_FILES['image']['tmp_name'], '../images/users/' . $filename);
 
             $passwordHash = password_hash($password, PASSWORD_DEFAULT);
@@ -29,7 +27,6 @@ class RegistrationController {
             $stmt->bind_param("sssss", $firstName, $lastName, $email, $passwordHash, $filename);
 
             if ($stmt->execute()) {
-                // Registration successful, redirect to login page
                 header('Location: login.php');
             } else {
                 echo "Registration failed: " . $stmt->error;
@@ -63,8 +60,8 @@ class RegistrationController {
     }
 
     public function generateUniqueFilename($extension) {
-        $uuid = uniqid(); // Generate a unique identifier
-        return $uuid . '.' . $extension; // Combine with the original file extension
+        $uuid = uniqid();
+        return $uuid . '.' . $extension;
     }
 }
 

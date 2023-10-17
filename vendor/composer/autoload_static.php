@@ -7,6 +7,11 @@ namespace Composer\Autoload;
 class ComposerStaticInitd751713988987e9331980363e24189ce
 {
     public static $prefixLengthsPsr4 = array (
+        'k' => 
+        array (
+            'kartik\\editors\\' => 15,
+            'kartik\\base\\' => 12,
+        ),
         'A' => 
         array (
             'App\\' => 4,
@@ -14,6 +19,14 @@ class ComposerStaticInitd751713988987e9331980363e24189ce
     );
 
     public static $prefixDirsPsr4 = array (
+        'kartik\\editors\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-editors/src',
+        ),
+        'kartik\\base\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-krajee-base/src',
+        ),
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
