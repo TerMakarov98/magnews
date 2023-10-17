@@ -1,3 +1,25 @@
+<?php
+session_start();
+
+use App\DBController, App\RegistrationController;
+
+require_once __DIR__ . "/../vendor/autoload.php";
+
+$dbController = new DBController();
+$query = "SELECT fname, lname FROM users";
+$result = $dbController->con->query($query);
+
+if ($result) {
+    if ($result->num_rows > 0) {
+        while ($row = $result->fetch_assoc()) {
+            $fullName = $row['fname'] . " " . $row['lname'];
+        }
+    }
+} else {
+    echo "Connection error: " . $dbController->con->error;
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,8 +36,7 @@
     <link rel="stylesheet" type="text/css" href="../css/util.min.css">
     <link rel="stylesheet" type="text/css" href="../css/main.css">
 </head>
-<?php require_once __DIR__ . "/../vendor/autoload.php"; ?>
-<?php require_once __DIR__ . "/../functions.php"; ?>
+<?php  ?>
 
 <body class="animsition">
 <!-- Header -->
@@ -46,13 +67,20 @@
                         Contact
                     </a>
 
-                    <a href="#" class="left-topbar-item">
-                        Sing up
-                    </a>
+                    <?php if (isset($_SESSION['user_id'])) { ?>
+                        <span class="left-topbar-item flex-wr-s-c">
+            <span>
+HI, <?php echo $fullName; ?>            </span>
+        </span>
+                    <?php } else { ?>
+                        <a href="../php/register.php" class="left-topbar-item">
+                            Sign up
+                        </a>
 
-                    <a href="#" class="left-topbar-item">
-                        Log in
-                    </a>
+                        <a href="../php/login.php" class="left-topbar-item">
+                            Log in
+                        </a>
+                    <?php } ?>
                 </div>
 
                 <div class="right-topbar">
@@ -83,7 +111,7 @@
         <div class="wrap-header-mobile">
             <!-- Logo moblie -->
             <div class="logo-mobile">
-                <a href="index.php"><img src="../images/icons/logo-01.png" alt="IMG-LOGO"></a>
+                <a href="../index.php"><img src="../images/icons/logo-01.png" alt="IMG-LOGO"></a>
             </div>
 
             <!-- Button show menu -->
@@ -120,13 +148,20 @@
                         Contact
                     </a>
 
-                    <a href="#" class="left-topbar-item">
-                        Sing up
-                    </a>
+                    <?php if (isset($_SESSION['user_id'])) { ?>
+                        <span class="left-topbar-item flex-wr-s-c">
+            <span style="color: white">
+HI, <?php echo $fullName; ?>            </span>
+        </span>
+                    <?php } else { ?>
+                        <a href="../php/register.php" class="left-topbar-item">
+                            Sign up
+                        </a>
 
-                    <a href="#" class="left-topbar-item">
-                        Log in
-                    </a>
+                        <a href="../php/login.php" class="left-topbar-item">
+                            Log in
+                        </a>
+                    <?php } ?>
                 </li>
 
                 <li class="right-topbar">

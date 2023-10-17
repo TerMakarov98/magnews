@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +16,9 @@
     <link rel="stylesheet" href="../../admin/dist/modules/flag-icon-css/css/flag-icon.min.css">
     <link rel="stylesheet" href="../../admin/dist/css/demo.css">
     <link rel="stylesheet" href="../../admin/dist/css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
 </head>
 
 <body>

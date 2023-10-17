@@ -1,3 +1,4 @@
+<?php session_start();?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,7 +28,7 @@
               <div class="card-header"><h4>Login</h4></div>
 
               <div class="card-body">
-                <form method="POST" action="#" class="needs-validation" novalidate="">
+                <form method="POST" action="user-login.php" class="needs-validation" novalidate="">
                   <div class="form-group">
                     <label for="email">Email</label>
                     <input id="email" type="email" class="form-control" name="email" tabindex="1" required autofocus>
@@ -48,7 +49,7 @@
 
 
                   <div class="form-group">
-                    <button type="submit" class="btn btn-primary btn-block" tabindex="4">
+                    <button type="submit" name="login-btn" class="btn btn-primary btn-block" tabindex="4">
                       Login
                     </button>
                   </div>

@@ -6,5 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'kartik\\editors\\' => array($vendorDir . '/kartik-v/yii2-editors/src'),
+    'kartik\\base\\' => array($vendorDir . '/kartik-v/yii2-krajee-base/src'),
     'App\\' => array($baseDir . '/app'),
 );

@@ -1,6 +1,7 @@
 <?php
-
 namespace app;
+
+use App\DBController;
 
 class RegistrationController {
     private $db;
@@ -14,12 +15,16 @@ class RegistrationController {
         $errors = $this->validateRegistration($firstName, $lastName, $email, $password, $passwordConfirm);
 
         if (empty($errors)) {
+            $image_extension = pathinfo($image, PATHINFO_EXTENSION);
+            $filename = $this->generateUniqueFilename($image_extension);
+
+            move_uploaded_file($_FILES['image']['tmp_name'], '../images/users/' . $filename);
+
             $passwordHash = password_hash($password, PASSWORD_DEFAULT);
-            $imagePath = '../images/users/' . $image;
 
             $query = "INSERT INTO `users` (`fname`, `lname`, `email`, `password`, `image`) VALUES (?, ?, ?, ?, ?)";
             $stmt = $this->db->con->prepare($query);
-            $stmt->bind_param("sssss", $firstName, $lastName, $email, $passwordHash, $image);
+            $stmt->bind_param("sssss", $firstName, $lastName, $email, $passwordHash, $filename);
 
             if ($stmt->execute()) {
                 header('Location: login.php');
@@ -53,6 +58,12 @@ class RegistrationController {
 
         return $errors;
     }
+
+    public function generateUniqueFilename($extension) {
+        $uuid = uniqid();
+        return $uuid . '.' . $extension;
+    }
 }
+
 
 

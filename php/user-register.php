@@ -1,12 +1,11 @@
 <?php
 session_start();
 
-require_once(__DIR__ . '/../app/DBController.php');
-require_once(__DIR__ . '/../app/RegistrationController.php');
+require_once(__DIR__ . '/../vendor/autoload.php');
 
 if (isset($_POST['register-btn'])) {
-    $registrationController = new app\RegistrationController();
-    $firstName = $_POST['frist_name'];
+    $registrationController = new App\RegistrationController();
+    $firstName = $_POST['first_name'];
     $lastName = $_POST['last_name'];
     $email = $_POST['email'];
     $password = $_POST['password'];
