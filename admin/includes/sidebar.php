@@ -1,3 +1,24 @@
+<?php
+
+use App\DBController;
+require_once __DIR__ . "/../../vendor/autoload.php";
+
+
+$db = new DBController();
+$query = "SELECT fname, lname, image FROM users";
+$result = $db->con->query($query);
+
+if ($result) {
+    if ($result->num_rows > 0) {
+        while ($row = $result->fetch_assoc()) {
+            $image = "../images/users/" . $row['image'];
+            $fullName = $row['fname'] . " " . $row['lname'];
+        }
+    }
+} else {
+    echo "Connection error: " . $db->con->error;
+}
+?>
 <div class="main-sidebar">
     <aside id="sidebar-wrapper">
         <div class="sidebar-brand">
@@ -5,10 +26,10 @@
         </div>
         <div class="sidebar-user">
             <div class="sidebar-user-picture">
-                <img alt="image" src="../../admin/dist/img/avatar/avatar-1.jpeg">
+              <img alt="image" src=<?=$image;?>>
             </div>
             <div class="sidebar-user-details">
-                <div class="user-name">Ujang Maman</div>
+                <div class="user-name"><?=$fullName;?></div>
                 <div class="user-role">
                     Administrator
                 </div>
@@ -26,9 +47,10 @@
                 <ul class="menu-dropdown">
                     <li><a href="../general.html"><i class="ion ion-ios-circle-outline"></i> Basic</a></li>
                     <li><a href="../components.html"><i class="ion ion-ios-circle-outline"></i> Main Components</a></li>
-                    <li><a href="../buttons.html"><i class="ion ion-ios-circle-outline"></i> Buttons</a></li>
-                    <li><a href="../toastr.html"><i class="ion ion-ios-circle-outline"></i> Toastr</a></li>
                 </ul>
+            </li>
+            <li>
+                <a href="../php/post-add.php" class=""><i class="ion ion-ios-book"></i><span>Add Post</span></a>
             </li>
 
             <li class="menu-header">More</li>
