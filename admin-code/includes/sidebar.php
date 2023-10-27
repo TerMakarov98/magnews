@@ -1,35 +1,29 @@
 <?php
+session_start();
+use App\Services\App, App\Controllers\Auth, App\Services\Router;
 
-use App\DBController;
 require_once __DIR__ . "/../../vendor/autoload.php";
-
-
-$db = new DBController();
-$query = "SELECT fname, lname, image FROM users";
-$result = $db->con->query($query);
-
-if ($result) {
-    if ($result->num_rows > 0) {
-        while ($row = $result->fetch_assoc()) {
-            $image = "../images/users/" . $row['image'];
-            $fullName = $row['fname'] . " " . $row['lname'];
-        }
-    }
-} else {
-    echo "Connection error: " . $db->con->error;
-}
+App::start();
 ?>
 <div class="main-sidebar">
     <aside id="sidebar-wrapper">
         <div class="sidebar-brand">
-            <a href="../../admin/index.php">Admin Dashboard</a>
+            <a href="../../php/admin.php">Admin Dashboard</a>
         </div>
         <div class="sidebar-user">
             <div class="sidebar-user-picture">
-              <img alt="image" src=<?=$image;?>>
+                <?php if (isset($_SESSION['user'])) { ?>
+                    <img src="<?= $_SESSION['user']['image'] ?>" alt="User Image">
+
+                <?php } else { ?>
+<!--                <img src="../images/users/1.png" alt="User Image">-->
+                <?php } ?>
+
             </div>
             <div class="sidebar-user-details">
-                <div class="user-name"><?=$fullName;?></div>
+                <?php if (isset($_SESSION['user'])) { ?>
+                    <div class="user-name"><?= $_SESSION['user']['fname'] . " " . $_SESSION['user']['lname']; ?></div>
+                <?php } ?>
                 <div class="user-role">
                     Administrator
                 </div>
@@ -38,7 +32,7 @@ if ($result) {
         <ul class="sidebar-menu">
             <li class="menu-header">Dashboard</li>
             <li class="active">
-                <a href="index.php"><i class="ion ion-speedometer"></i><span>Dashboard</span></a>
+                <a href="../../php/admin.php"><i class="ion ion-speedometer"></i><span>Dashboard</span></a>
             </li>
 
             <li class="menu-header">Components</li>

@@ -1,6 +1,15 @@
-<?php include("includes/header.php"); ?>
-<?php include("includes/sidebar.php"); ?>
+<?php require_once __DIR__ . "/admin/includes/header.php";?>
+<?php require_once __DIR__ . "/admin/includes/sidebar.php";?>
+<?php
+session_start();
+use App\Services\App, App\Controllers\Auth, App\Services\Router;
 
+require_once __DIR__ . "/vendor/autoload.php";
+App::start();
+require_once __DIR__ . "/router/routes.php";
+
+
+?>
 <div class="main-content">
     <section class="section">
         <h1 class="section-header">
@@ -72,4 +81,4 @@
     </section>
 </div>
 
-<?php include("includes/footer.php");?>
+<?php require_once __DIR__ . "/admin/includes/footer.php";?>

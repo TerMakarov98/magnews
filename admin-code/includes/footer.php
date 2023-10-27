@@ -41,7 +41,6 @@
             datasets: [{
                 label: 'Statistics',
                 data: [460, 458, 330, 502, 430, 610, 488],
-                borderWidth: 2,
                 backgroundColor: 'rgb(87,75,144)',
                 borderColor: 'rgb(87,75,144)',
                 borderWidth: 2.5,
