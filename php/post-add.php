@@ -1,5 +1,5 @@
-<?php include __DIR__ . "/includes/header.php"; ?>
-<?php include __DIR__ . "/includes/sidebar.php"; ?>
+<?php include __DIR__ . "/../admin-code/includes/header.php"; ?>
+<?php include __DIR__ . "/../admin-code/includes/sidebar.php"; ?>
 
 <div class="main-content">
     <section class="section">
@@ -12,7 +12,7 @@
                             <div class="card">
 
                                 <div class="card-body">
-                                    <form action="php/code.php" method="post" enctype="multipart/form-data">
+                                    <form action="/auth/post" method="post" enctype="multipart/form-data">
                                         <div class="row">
                                             <div class="col-md-12 mb-3">
 
@@ -63,6 +63,15 @@
                                                 <button type="submit" name="post_add" class="btn btn-primary">Save post
                                                 </button>
                                             </div>
+                                            <?php if (isset($_GET['errors'])): ?>
+                                                <div class="alert alert-danger">
+                                                    <ul>
+                                                        <?php foreach ($_GET['errors'] as $error): ?>
+                                                            <li><?= $error; ?></li>
+                                                        <?php endforeach; ?>
+                                                    </ul>
+                                                </div>
+                                            <?php endif; ?>
                                         </div>
                                     </form>
 
@@ -77,4 +86,4 @@
 </div>
 
 
-<?php include __DIR__ . "/includes/footer.php"; ?>
+<?php include __DIR__ . "/../admin-code/includes/footer.php"; ?>

@@ -1,8 +1,13 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
 session_start();
-
+if (isset($_SESSION['user'])) {
+    if ($_SESSION['user']['role_as'] == 1) {
+        header('Location: /admin');
+    } else {
+        header('Location: /home');
+    }
+    die();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,12 +16,12 @@ session_start();
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" name="viewport">
   <title>Examples &rsaquo; Register &mdash; Stisla</title>
 
-  <link rel="stylesheet" href="../admin/dist/modules/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../admin/dist/modules/ionicons/css/ionicons.min.css">
-  <link rel="stylesheet" href="../admin/dist/modules/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="../admin-code/dist/modules/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../admin-code/dist/modules/ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="../admin-code/dist/modules/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css">
 
-  <link rel="stylesheet" href="../admin/dist/css/demo.css">
-  <link rel="stylesheet" href="../admin/dist/css/style.css">
+  <link rel="stylesheet" href="../admin-code/dist/css/demo.css">
+  <link rel="stylesheet" href="../admin-code/dist/css/style.css">
 </head>
 
 <body>
@@ -32,7 +37,7 @@ session_start();
             <div class="card card-primary">
 
               <div class="card-body">
-                <form method="POST" action="user-register.php" enctype="multipart/form-data">
+                <form method="POST" action="/auth/register" enctype="multipart/form-data">
                   <div class="row">
                     <div class="form-group col-6">
                       <label for="first_name">First Name</label>
@@ -81,6 +86,15 @@ session_start();
                       Register
                     </button>
                   </div>
+                    <?php if (isset($_GET['errors'])): ?>
+                        <div class="alert alert-danger">
+                            <ul>
+                                <?php foreach ($_GET['errors'] as $error): ?>
+                                    <li><?= $error; ?></li>
+                                <?php endforeach; ?>
+                            </ul>
+                        </div>
+                    <?php endif; ?>
                 </form>
               </div>
             </div>
@@ -93,17 +107,17 @@ session_start();
     </section>
   </div>
 
-  <script src="../admin/dist/modules/jquery.min.js"></script>
-  <script src="../admin/dist/modules/popper.js"></script>
-  <script src="../admin/dist/modules/tooltip.js"></script>
-  <script src="../admin/dist/modules/bootstrap/js/bootstrap.min.js"></script>
-  <script src="../admin/dist/modules/nicescroll/jquery.nicescroll.min.js"></script>
-  <script src="../admin/dist/modules/moment.min.js"></script>
-  <script src="../admin/dist/modules/scroll-up-bar/dist/scroll-up-bar.min.js"></script>
-  <script src="../admin/dist/js/sa-functions.js"></script>
+  <script src="../admin-code/dist/modules/jquery.min.js"></script>
+  <script src="../admin-code/dist/modules/popper.js"></script>
+  <script src="../admin-code/dist/modules/tooltip.js"></script>
+  <script src="../admin-code/dist/modules/bootstrap/js/bootstrap.min.js"></script>
+  <script src="../admin-code/dist/modules/nicescroll/jquery.nicescroll.min.js"></script>
+  <script src="../admin-code/dist/modules/moment.min.js"></script>
+  <script src="../admin-code/dist/modules/scroll-up-bar/dist/scroll-up-bar.min.js"></script>
+  <script src="../admin-code/dist/js/sa-functions.js"></script>
   
-  <script src="../admin/dist/js/scripts.js"></script>
-  <script src="../admin/dist/js/custom.js"></script>
-  <script src="../admin/dist/js/demo.js"></script>
+  <script src="../admin-code/dist/js/scripts.js"></script>
+  <script src="../admin-code/dist/js/custom.js"></script>
+  <script src="../admin-code/dist/js/demo.js"></script>
 </body>
 </html>

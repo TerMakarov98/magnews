@@ -1,20 +1,33 @@
-<?php require_once __DIR__ . "/admin/includes/header.php";?>
-<?php require_once __DIR__ . "/admin/includes/sidebar.php";?>
 <?php
-session_start();
-use App\Services\App, App\Controllers\Auth, App\Services\Router;
+require_once __DIR__ . "/../admin-code/includes/header.php";
+require_once __DIR__ . "/../admin-code/includes/sidebar.php";
 
-require_once __DIR__ . "/vendor/autoload.php";
-App::start();
-require_once __DIR__ . "/router/routes.php";
+if (!isset($_SESSION['user'])) {
+    \App\Services\Router::redirect('/login');
+    exit();
+}
 
-
+// Check the user's role
+if ($_SESSION['user']['role_as'] == 0) {
+    \App\Services\Router::redirect('/home');
+    exit();
+}
+ob_end_flush();
 ?>
 <div class="main-content">
     <section class="section">
         <h1 class="section-header">
             Dashboard
         </h1>
+        <?php if (isset($_GET['errors'])): ?>
+            <div class="alert alert-danger">
+                <ul>
+                    <?php foreach ($_GET['errors'] as $error): ?>
+                        <li><?= $error; ?></li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+        <?php endif; ?>
         <div class="row">
             <div class="col-lg-3 col-md-6 col-12">
                 <div class="card card-sm-3">
@@ -23,10 +36,14 @@ require_once __DIR__ . "/router/routes.php";
                     </div>
                     <div class="card-wrap">
                         <div class="card-header">
-                            <h4>Total Admin</h4>
+                            <h4>Registered users</h4>
                         </div>
                         <div class="card-body">
-                            10
+                            <?php
+                            $auth = new \App\Controllers\Auth();
+                            $userCount = $auth->getRecordCount('users');
+                            echo $userCount;
+                            ?>
                         </div>
                     </div>
                 </div>
@@ -41,7 +58,11 @@ require_once __DIR__ . "/router/routes.php";
                             <h4>News</h4>
                         </div>
                         <div class="card-body">
-                            42
+                            <?php
+                            $auth = new \App\Controllers\Auth();
+                            $postCount = $auth->getRecordCount('posts');
+                            echo $postCount;
+                            ?>
                         </div>
                     </div>
                 </div>
@@ -53,10 +74,10 @@ require_once __DIR__ . "/router/routes.php";
                     </div>
                     <div class="card-wrap">
                         <div class="card-header">
-                            <h4>Reports</h4>
+                            <h4>Messages</h4>
                         </div>
                         <div class="card-body">
-                            1,201
+                            0
                         </div>
                     </div>
                 </div>
@@ -71,7 +92,7 @@ require_once __DIR__ . "/router/routes.php";
                             <h4>Online Users</h4>
                         </div>
                         <div class="card-body">
-                            47
+                            0
                         </div>
                     </div>
                 </div>
@@ -81,4 +102,4 @@ require_once __DIR__ . "/router/routes.php";
     </section>
 </div>
 
-<?php require_once __DIR__ . "/admin/includes/footer.php";?>
+<?php require_once __DIR__ . "/../admin-code/includes/footer.php"; ?>

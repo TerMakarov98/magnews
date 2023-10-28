@@ -7,16 +7,16 @@
 </div>
 </div>
 
-<script src="../../admin/dist/modules/jquery.min.js"></script>
-<script src="../../admin/dist/modules/popper.js"></script>
-<script src="../../admin/dist/modules/tooltip.js"></script>
-<script src="../../admin/dist/modules/bootstrap/js/bootstrap.min.js"></script>
-<script src="../../admin/dist/modules/nicescroll/jquery.nicescroll.min.js"></script>
-<script src="../../admin/dist/modules/scroll-up-bar/dist/scroll-up-bar.min.js"></script>
-<script src="../../admin/dist/js/sa-functions.js"></script>
+<script src="../../admin-code/dist/modules/jquery.min.js"></script>
+<script src="../../admin-code/dist/modules/popper.js"></script>
+<script src="../../admin-code/dist/modules/tooltip.js"></script>
+<script src="../../admin-code/dist/modules/bootstrap/js/bootstrap.min.js"></script>
+<script src="../../admin-code/dist/modules/nicescroll/jquery.nicescroll.min.js"></script>
+<script src="../../admin-code/dist/modules/scroll-up-bar/dist/scroll-up-bar.min.js"></script>
+<script src="../../admin-code/dist/js/sa-functions.js"></script>
 
-<script src="../../admin/dist/modules/chart.min.js"></script>
-<script src="../../admin/dist/modules/summernote/summernote-lite.js"></script>
+<script src="../../admin-code/dist/modules/chart.min.js"></script>
+<script src="../../admin-code/dist/modules/summernote/summernote-lite.js"></script>
 
 <!-- Summernote library scripts -->
 <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
@@ -68,8 +68,8 @@
         }
     });
 </script>
-<script src="../../admin/dist/js/scripts.js"></script>
-<script src="../../admin/dist/js/custom.js"></script>
-<script src="../../admin/dist/js/demo.js"></script>
+<script src="../../admin-code/dist/js/scripts.js"></script>
+<script src="../../admin-code/dist/js/custom.js"></script>
+<script src="../../admin-code/dist/js/demo.js"></script>
 </body>
 </html>

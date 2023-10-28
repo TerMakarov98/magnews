@@ -1,23 +1,14 @@
 <?php
 session_start();
 
-use App\DBController, App\RegistrationController;
+//use App\DBController, App\RegistrationController;
+use App\Services\App, App\Controllers\Auth;
 
 require_once __DIR__ . "/../vendor/autoload.php";
+App::start();
+require_once __DIR__ . "/../router/routes.php";
 
-$dbController = new DBController();
-$query = "SELECT fname, lname FROM users";
-$result = $dbController->con->query($query);
 
-if ($result) {
-    if ($result->num_rows > 0) {
-        while ($row = $result->fetch_assoc()) {
-            $fullName = $row['fname'] . " " . $row['lname'];
-        }
-    }
-} else {
-    echo "Connection error: " . $dbController->con->error;
-}
 
 ?>
 <!DOCTYPE html>
@@ -36,7 +27,7 @@ if ($result) {
     <link rel="stylesheet" type="text/css" href="../css/util.min.css">
     <link rel="stylesheet" type="text/css" href="../css/main.css">
 </head>
-<?php  ?>
+<?php ?>
 
 <body class="animsition">
 <!-- Header -->
@@ -67,17 +58,21 @@ if ($result) {
                         Contact
                     </a>
 
-                    <?php if (isset($_SESSION['user_id'])) { ?>
+                    <?php if (isset($_SESSION['user'])) { ?>
+                        <form action="/auth/logout" method="post">
+                            <button type="submit" class="left-topbar-item">Logout</button>
+                        </form>
                         <span class="left-topbar-item flex-wr-s-c">
             <span>
-HI, <?php echo $fullName; ?>            </span>
+HI, <?= $_SESSION['user']['fname'] . " " . $_SESSION['user']['lname']; ?>            </span>
         </span>
+
                     <?php } else { ?>
-                        <a href="../php/register.php" class="left-topbar-item">
+                        <a href="/register" class="left-topbar-item">
                             Sign up
                         </a>
 
-                        <a href="../php/login.php" class="left-topbar-item">
+                        <a href="/login" class="left-topbar-item">
                             Log in
                         </a>
                     <?php } ?>
@@ -148,17 +143,21 @@ HI, <?php echo $fullName; ?>            </span>
                         Contact
                     </a>
 
-                    <?php if (isset($_SESSION['user_id'])) { ?>
+                    <?php if (isset($_SESSION['user'])) { ?>
+                        <form action="/auth/logout" method="post">
+                            <button type="submit" class="left-topbar-item">Logout</button>
+                        </form>
                         <span class="left-topbar-item flex-wr-s-c">
-            <span style="color: white">
-HI, <?php echo $fullName; ?>            </span>
+            <span>
+HI, <?= $_SESSION['user']['fname'] . " " . $_SESSION['user']['lname']; ?>            </span>
         </span>
+
                     <?php } else { ?>
-                        <a href="../php/register.php" class="left-topbar-item">
+                        <a href="/register" class="left-topbar-item">
                             Sign up
                         </a>
 
-                        <a href="../php/login.php" class="left-topbar-item">
+                        <a href="/login" class="left-topbar-item">
                             Log in
                         </a>
                     <?php } ?>

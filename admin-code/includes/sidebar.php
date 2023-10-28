@@ -1,29 +1,22 @@
-<?php
-session_start();
-use App\Services\App, App\Controllers\Auth, App\Services\Router;
-
-require_once __DIR__ . "/../../vendor/autoload.php";
-App::start();
-?>
+<?php ob_start(); ?>
 <div class="main-sidebar">
     <aside id="sidebar-wrapper">
         <div class="sidebar-brand">
-            <a href="../../php/admin.php">Admin Dashboard</a>
+            <a href="/admin">Admin Dashboard</a>
         </div>
         <div class="sidebar-user">
             <div class="sidebar-user-picture">
                 <?php if (isset($_SESSION['user'])) { ?>
-                    <img src="<?= $_SESSION['user']['image'] ?>" alt="User Image">
-
+                    <img src="/images/users/<?=$_SESSION['user']['image'];?>" alt="User Image">
                 <?php } else { ?>
-<!--                <img src="../images/users/1.png" alt="User Image">-->
+                    <img src="/images/users/1.png" alt="User Image">
                 <?php } ?>
-
             </div>
             <div class="sidebar-user-details">
                 <?php if (isset($_SESSION['user'])) { ?>
-                    <div class="user-name"><?= $_SESSION['user']['fname'] . " " . $_SESSION['user']['lname']; ?></div>
-                <?php } ?>
+                    <div class="user-name"><?=$_SESSION['user']['fname'] . " " . $_SESSION['user']['lname'];?></div>
+                <?php }
+                ?>
                 <div class="user-role">
                     Administrator
                 </div>
@@ -32,7 +25,7 @@ App::start();
         <ul class="sidebar-menu">
             <li class="menu-header">Dashboard</li>
             <li class="active">
-                <a href="../../php/admin.php"><i class="ion ion-speedometer"></i><span>Dashboard</span></a>
+                <a href="/admin"><i class="ion ion-speedometer"></i><span>Dashboard</span></a>
             </li>
 
             <li class="menu-header">Components</li>
@@ -44,7 +37,7 @@ App::start();
                 </ul>
             </li>
             <li>
-                <a href="post-add.php" class=""><i class="ion ion-ios-book"></i><span>Add Post</span></a>
+                <a href="/admin/post-add" class=""><i class="ion ion-ios-book"></i><span>Add Post</span></a>
             </li>
 
             <li class="menu-header">More</li>

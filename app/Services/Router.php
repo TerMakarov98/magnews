@@ -10,39 +10,67 @@ class Router
     {
         self::$list[$uri] = [
             "uri" => $uri,
-            "page" => $page_path
+            "page" => $page_path,
+            "post" => false
+        ];
+    }
+
+    public static function post($uri, $class, $method, $form_data = false, $files = false): void
+    {
+        self::$list[] = [
+            "uri" => $uri,
+            "class" => $class,
+            "method" => $method,
+            "post" => true,
+            "form_data" => $form_data,
+            "files" => $files
         ];
     }
 
     public static function enable(): void
     {
         $query = $_GET['q'];
+        $query = rtrim($query, '/');
 
         foreach (self::$list as $route) {
             if ($route['uri'] == "/" . $query) {
-                $pagePath = $route['page'];
-                if (self::includePage($pagePath)) {
+                if ($route['post'] === true && $_SERVER['REQUEST_METHOD'] == "POST") {
+                    $action = new $route['class'];
+                    $method = $route['method'];
+
+                    if ($route["form_data"] && $route["files"]) {
+                        $action->$method($_POST, $_FILES);
+                    } elseif ($route["form_data"]) {
+                        $action->$method($_POST);
+                    } else {
+                        $action->$method();
+                    }
+
                     die();
+                } else {
+                    $pagePath = $route['page'];
+
+                    if (self::includePage($pagePath, [
+                        __DIR__ . "/../../php/",
+                        __DIR__ . "/../../",
+                    ])) {
+                        die();
+                    }
                 }
             }
         }
 
-        self::not_found_page();
+        self::error("404");
     }
 
-    private static function not_found_page(): void
+    public static function error($error): void
     {
-        include __DIR__ . "/../../php/404.php";
+        include __DIR__ . "/../../php/" . $error . ".php";
         die();
     }
 
-    private static function includePage($pagePath): bool
+    private static function includePage(string $pagePath, array $directories): bool
     {
-        $directories = [
-            __DIR__ . "/../../php/",
-            __DIR__ . "/../../"
-        ];
-
         $pathParts = explode('/', $pagePath);
         $file = end($pathParts);
 
@@ -55,5 +83,16 @@ class Router
         }
 
         return false;
+    }
+
+
+    public static function redirect($url, $data = [])
+    {
+        $query = http_build_query($data);
+        if (!empty($query)) {
+            $url .= '?' . $query;
+        }
+        header("Location: $url");
+        die();
     }
 }
