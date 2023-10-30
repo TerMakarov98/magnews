@@ -7,7 +7,7 @@ Router::page("/login", "login");
 Router::page("/register", "register");
 Router::page("/home", "index");
 Router::page("/admin", "admin");
-Router::page("/post/?article_id", "post");
+Router::page("/news/post", "post");
 Router::page("/admin/post-add", "post-add");
 
 Router::post("/auth/register", Auth::class, "register", true, true);

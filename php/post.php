@@ -6,59 +6,20 @@ include __DIR__ . "/../includes/header.php";
 include __DIR__ . "/../app/Services/App.php";
 
 App::start();
-
-if (isset($_GET['article_id'])) {
-    $articleData = App::fetchArticleData($_GET['article_id']);
-
-    if (!$articleData) {
-        echo "Article not found";
-    } else {
-        $title = $articleData['title'];
-        $image = $articleData['image'];
-        $description = $articleData['description'];
-        $date = $articleData['date'];
-    }
-} else {
-    echo "Article ID is not provided.";
-}
-
 ?>
 
 <!-- HTML content goes here -->
 <div class="container p-t-82">
     <!-- ... other HTML content ... -->
     <h3 class="f1-l-5 cl0 p-b-16 txt-center respon2">
-        <?= $title; ?>
+        <?= $_SESSION['post']['post_title']; ?>
     </h3>
     <!-- ... other HTML content ... -->
     <div>
-        <?= $description; ?>
+        <?= $_SESSION['post']['post_description']; ?>
     </div>
     <!-- ... other HTML content ... -->
 </div>
-
-<?php
-include __DIR__ . "/../includes/footer.php";
-?>
-These changes should help you display posts in your post.php file correctly. Make sure that you have the correct value for $_GET['article_id'] when accessing this page.
-
-
-
-
-Was this response better or worse?
-
-Better
-
-Worse
-
-Same
-
-
-
-
-        ?>
-
-
         <!-- Breadcrumb -->
         <div class="container">
             <div class="headline bg0 flex-wr-sb-c p-rl-20 p-tb-8">
@@ -72,7 +33,7 @@ Same
                     </a>
 
                     <span class="breadcrumb-item f1-s-3 cl9">
-					 <?= $title ?>
+					 <?= $_SESSION['post']['post_title'] ?>
 				</span>
                 </div>
 
@@ -102,7 +63,7 @@ Same
                         </a>
 
                         <h3 class="f1-l-5 cl0 p-b-16 txt-center respon2">
-                            <?= $title; ?>
+                            <?= $_SESSION['post']['post_title']; ?>
                         </h3>
 
                         <div class="flex-wr-c-s">
@@ -113,7 +74,7 @@ Same
 
 						<span class="m-rl-3">-</span>
 
-						<span> <?= $date; ?></span>
+						<span> <?= $_SESSION['post']['post_created_at']; ?></span>
 					</span>
 
                             <span class="f1-s-3 cl8 m-rl-7 txt-center">

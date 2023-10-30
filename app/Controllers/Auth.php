@@ -179,6 +179,22 @@ class Auth
         $metaKeyword = filter_var($data['meta_keyword'], FILTER_SANITIZE_STRING);
         $status = isset($data['status']) ? 1 : 0;
 
+        $_SESSION['post'] = [
+            'post_title' =>$data['name'],
+            'post_slug' => $data['slug'],
+            'post_description' => $data['description'],
+            'post_image' => $data['image'],
+            'post_created_at' => $data['created_at']
+        ];
+//        $_SESSION['post_title'] = $data['name'];
+//        $_SESSION['post_slug'] = $data['slug'];
+//        $_SESSION['post_description'] = $data['description'];
+//        $_SESSION['post_image'] = $data['image'];
+//        $_SESSION['post_meta_title'] = $data['meta_title'];
+//        $_SESSION['post_meta_description'] = $data['meta_description'];
+//        $_SESSION['post_meta_keyword'] = $data['meta_keyword'];
+//        $_SESSION['post_status'] = $data['status'];
+
         // Validate the uploaded image file
         if (empty($files['image']['name'])) {
             Router::redirect('/admin/post-add', ['error' => 'Please select an image']);
